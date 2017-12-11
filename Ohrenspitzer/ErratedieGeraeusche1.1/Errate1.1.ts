@@ -1,7 +1,9 @@
-//Alertbox
-function Meldung(): void {
-    alert("Das ist leider falsch!");
+//Alertboxen
+function Falschmeldung(): void {
+    alert("Das ist leider FALSCH :(   Versuche es noch einmal!");
 }
 
-
+function Richtig(): void {
+    alert("RICHTIG :)   weiter zum naechsten Geraeusch!");
+}
 

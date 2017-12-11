@@ -26,6 +26,7 @@
 
 			<!-- Ratte Logo: zurück zur Palmen Startseite -->
 			<a href=""><img src="Ratte.png"></a>
+			
 			<!-- X Button: zurück zur Levelauswahl -->
 			<a href=""><strong>X</strong></a>
 		</div>
@@ -35,11 +36,13 @@
 	<!-- Hauptteil -->
 
 	<main> 
-	<!-- Level Anzeige -->
+	<!-- Level Anzeige (verlinkt wird immer das, was schon gespielt wurde) -->
 	<p id="Level">Level 1</p>
-	<div id="Kreis1"><img src="kreis.png"></div><div id="Kreis2"><img src="kreis.png"></div><div id="Kreis3"><img src="kreis.png"></div>
+	<div id="Kreis1"><img src="kreis.png"></div>
+	<div id="Kreis2"><img src="kreis.png"></div>
+	<div id="Kreis3"><img src="kreis.png"></div>
 	
-	<a href=""><p id="weiter">weiter --></p></a>
+	<a href="Errate1.2.html"><p id="weiter">weiter --></p></a>
 	
 	
 	<!-- Audio Icon -->
@@ -54,22 +57,22 @@
 	<!-- Antwortmöglichkeiten -->
 	<div class="Bilder">
 		<img src="Springbrunnen.jpg">
-		<div onclick="Meldung()" class="Antworten"><p>A: Springbrunnen</p></div>
+		<div onclick="Falschmeldung()" class="Antworten"><p>A: Springbrunnen</p></div>
 	</div>
 
 	<div class="Bilder">
 		<img src="Pflanzen gießen.jpg">
-		<div class="Antworten"><p>B: Pflanzen gießen</p></div>
+		<div onclick="Falschmeldung()" class="Antworten"><p>B: Pflanzen gießen</p></div>
 	</div>
 
 	<div class="Bilder">
 		<img src="Kieselsteine.jpg">
-		<div class="Antworten"><p>C: Kieselsteine, die ins Wasser fallen</p></div>
+		<div onclick="Falschmeldung()" class="Antworten"><p>C: Kieselsteine, die ins Wasser fallen</p></div>
 	</div>
 
 <div class="Bilder">
 		<img src="tropfender Wasserhahn.jpg">
-		<div class="Antworten"><p>D: tropfender Wasserhahn</p></div>
+		<div onclick="Richtig()" class="Antworten"><p>D: tropfender Wasserhahn</p></div>
 	</div>
 
 

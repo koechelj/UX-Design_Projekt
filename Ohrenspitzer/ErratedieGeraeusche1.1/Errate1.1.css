@@ -3,7 +3,6 @@ html {
 	height: 100%;
 	line-height: 1.8em;
 	font-size: 1em;
-	background-color:#00b0f0;
 	background-image:url("hintergrund2.PNG");
 	background-repeat:no-repeat;
 	background-size: 100% 100% !important;
@@ -39,7 +38,7 @@ header strong {
 }
 
 header strong:hover {
-	color: red;
+	color: #5858FA;
 }
 
 /*Ratte*/
@@ -61,12 +60,13 @@ header img {
 	float: right;
 	right: 2em;
 	top:4.5em;
+	color: #5858FA;
 }
 #Kreis1 {
 	float: right;
 	position: relative;
 	width: 1%;
-	height: auto;
+	height: 1.5;
 	top: 2em;
 	right: 2.9em;
 	background-color: ;
@@ -76,7 +76,7 @@ header img {
 	float: right;
 	position: relative;
 	width: 1%;
-	height: auto;
+	height: 1.5;
 	top: 2em;
 	right: 2.9em;
 	background-color: ;
@@ -86,10 +86,10 @@ header img {
 	float: right;
 	position: relative;
 	width: 1%;
-	height: 1.3em;
+	height: 1.5em;
 	top: 2em;
 	right: 2.9em;
-	background-color: black;
+	background-color: white;
 }
 
 #weiter {
@@ -99,7 +99,7 @@ header img {
 	float: right;
 	right: 1.2em;
 	top: 27.5em;
-	color: black;
+	color: #5858FA;
 	background-color: white;
 }
 
@@ -165,7 +165,7 @@ main img {
 }
 
 .Antworten:hover {
-	background-color: blue;
+	background-color: #5858FA;
 }
 
 
@@ -182,169 +182,4 @@ main img {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Kopfbereich
-header {
-	top: 0em;
-	background-color: white;
-	width: 100%;
-	height: 10em;
-	position: fixed;
-	font-size: 1.125em;
-	z-index: -20;
-}
-
-
-
-
-
-
-/*Blume
-header img {
-	display: none;
-}
-
-
-
-header div button {
-	background-color: #D6AE76;
-	position: absolute;
-	float: right;
-	right: 1em;
-	padding: 0.6em 0.8em 0.6em 0.8em;
-	border-radius: 10%;
-}
-
-header div button:hover {
-	color: white;
-}
-
-#Menuefeld {
-	width: 30%;
-	float: right;
-	top: 0em;
-	right: 4.7em;
-	position: absolute;
-	display: none;
-}
-
-header nav button {
-	padding: 2%;
-	margin: 0.5%;
-	background-color: #D6AE76;
-	width: 100%;
-	min-width: 9em;
-	font-family: "Cutive Mono";
-	font-size: 0.8em;
-}
-
-header nav button:hover {
-	color: white;
-}
-
-ul li {
-	list-style: none;
-}
-
-*/
-/*Hauptteil
-main {
-	margin-top: 16em;
-	width: 100%;
-	height: auto;
-	font-size: 1.1em;
-}
-
-.HintergrundfarbeAboutme {
-	background-color: #D6AE76;
-	padding: 0.6%;
-}
-
-main div {
-	float: left;
-	margin: 2%;
-	top: 17em;
-	width: 98%;
-	height: auto;
-	z-index: 20;
-}
-
-main img {
-	width: 60%;
-	min-width: 15.2em;
-	max-width: 38em;
-	float: left;
-	box-shadow: 0em 0em 1em 0em #888888;
-}
-
-main img:hover {
-	box-shadow: 0em 0em 2em 0em #888888;
-}
-
-img [alt=Streichholzlampe] {
-	transform: rotate(90deg);
-}
-
-main div h3 {
-	float: left;
-	margin: 2%;
-	font-family: "Reenie Beanie";
-	font-size: 2em;
-}
-
-main div p {
-	float: left;
-	margin: 1.5%;
-}
-
-#Pfeilnachoben {
-	position: fixed;
-	height: auto;
-	right: 0.2em;
-	width:20%;
-	bottom: 0em;
-	z-index: 50;
-}
-
-div a img {
-	width: 18%;
-	min-width: 1.8em;
-	float: right;
-}
-
-
-
-footer div {
-	width: 96%;
-	margin: 2%;
-	position: relative;
-	text-algin: center
-}
-
-#Footerbox1 img {
-	width: 20%;
-	max-width: 4em;
-}
-
-#Footerbox2 img {
-	width: 10em;
-}
-
-#Footerbox3 strong {
-	color: white;
-}
-
-*/
 
