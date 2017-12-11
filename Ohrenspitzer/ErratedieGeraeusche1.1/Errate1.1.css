@@ -1,16 +1,201 @@
-/*Allgemein*/
 html {
-	font-family: "Cutive Mono";
+	width: 100%;
+	height: 100%;
 	line-height: 1.8em;
 	font-size: 1em;
+	background-color:#00b0f0;
+	background-image:url("hintergrund2.PNG");
+	background-repeat:no-repeat;
+	background-size: 100% 100% !important;
+	height:fit-content;
 }
 
 body {
+	font-family: "Arial";
 	margin: 0em;
 	padding: 0em;
 }
 
+
+
 /*Kopfbereich*/
+header {
+	font-size: 2.5em;
+	color: white;
+}
+
+header h2 {
+		font-family: "MV Boli";
+		text-align: center;
+		font-size: 1.1em;
+}
+
+/*X: zurück zur Levelauswahl*/
+header strong {
+	color: white;
+	position: absolute;
+	right: 0.7em;
+	top: 0.7em;
+}
+
+header strong:hover {
+	color: red;
+}
+
+/*Ratte*/
+header img {
+	position: absolute;
+	top: 0.15em;
+	left: 0.5em;
+	height: 13%;
+}
+
+
+
+/*Hauptbereich*/
+
+#Level {
+	font-family: "MV Boli";
+	font-size: 1.2em;
+	position: absolute;
+	float: right;
+	right: 2em;
+	top:4.5em;
+}
+#Kreis1 {
+	float: right;
+	position: relative;
+	width: 1%;
+	height: auto;
+	top: 2em;
+	right: 2.9em;
+	background-color: ;
+}
+
+#Kreis2 {
+	float: right;
+	position: relative;
+	width: 1%;
+	height: auto;
+	top: 2em;
+	right: 2.9em;
+	background-color: ;
+}
+
+#Kreis3 {
+	float: right;
+	position: relative;
+	width: 1%;
+	height: 1.3em;
+	top: 2em;
+	right: 2.9em;
+	background-color: black;
+}
+
+#weiter {
+	font-family: "MV Boli";
+	font-size: 1.2em;
+	position: absolute;
+	float: right;
+	right: 1.2em;
+	top: 27.5em;
+	color: black;
+	background-color: white;
+}
+
+#weiter:hover {
+	background-color: transparent;
+}
+
+
+#Audioicon {
+	width: 5em;
+	position: absolute;
+	left: 40em;
+	top: 7em;
+}
+
+#Audioicon img {
+	height: auto;
+	background-color: white;
+}
+
+#Audioicon img:hover {
+	background-color: transparent;
+}
+
+#Frage {
+	width: 19em;
+	height: 3.5em;
+	position: absolute;
+	left: 33em;
+	top: 12.5em;
+	background-color: white;
+}
+
+
+main div p {
+text-align: center;
+color: black;	
+}
+
+
+.Bilder {
+	width: 20%;
+	float: left;
+	position: relative;
+	margin-left: 3.5em;
+	top: 11em;
+
+}
+
+main img {
+	width: 100%;
+}
+
+
+
+.Antworten {
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+	background-color: white;
+	box-shadow: 0em 0em 2em 0em #888888;
+}
+
+.Antworten:hover {
+	background-color: blue;
+}
+
+
+
+
+/*Fußbereich*/
+#Footer{
+	position:absolute;
+	bottom:1.5%;
+	right: 2%;
+	font-family:arial;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Kopfbereich
 header {
 	top: 0em;
 	background-color: white;
@@ -21,37 +206,17 @@ header {
 	z-index: -20;
 }
 
-header h1 {
-	font-family: "Reenie Beanie";
-	margin: 3%;
-	font-size: 2.5em;
-}
 
-header h4 {
-	font-family: "Cutive Mono";
-	color: white;
-	margin: 3%;
-	font-size: 1em;
-}
 
-#Namensfeld {
-	width: 56.2%;
-	min-width: 10.5em;
-	padding: 2.5%;
-	background-color: #D6AE76;
-	line-height: 2em;
-}
 
-/*Blume*/
+
+
+/*Blume
 header img {
 	display: none;
 }
 
-#Trennstrich {
-	width: 100%;
-	height: 2.7em;
-	background-color: silver;
-}
+
 
 header div button {
 	background-color: #D6AE76;
@@ -93,7 +258,8 @@ ul li {
 	list-style: none;
 }
 
-/*Hauptteil*/
+*/
+/*Hauptteil
 main {
 	margin-top: 16em;
 	width: 100%;
@@ -158,16 +324,7 @@ div a img {
 	float: right;
 }
 
-/*Fußbereich*/
-footer {
-	font-size: 1em;
-	margin-top: 2em;
-	float: left;
-	bottom: 0em;
-	width: 100%;
-	height: auto;
-	background-color: silver;
-}
+
 
 footer div {
 	width: 96%;
@@ -189,34 +346,5 @@ footer div {
 	color: white;
 }
 
-/*Responsive*/
-@media screen and (min-width: 36em) {
-	main {
-		margin-top: 15em;
-	}
-	header h1 {
-		font-size: 2.8em;
-	}
-	header h4 {
-		font-size: 1.5em;
-	}
-}
+*/
 
-@media screen and (min-width: 42em) {
-	footer div {
-		width: 29.33333333%;
-		position: relative;
-		float: left;
-	}
-}
-
-@media screen and (min-width: 77em) {
-	header img {
-		position: absolute;
-		width: 13%;
-		float: right;
-		left: 33em;
-		top: 1.8em;
-		display: block;
-	}
-}
