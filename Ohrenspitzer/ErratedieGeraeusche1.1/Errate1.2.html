@@ -26,7 +26,7 @@
 
 			<!-- Ratte Logo: zurück zur Palmen Startseite -->
 			<a href=""><img src="Ratte.png"></a>
-			
+
 			<!-- X Button: zurück zur Levelauswahl -->
 			<a href=""><strong>X</strong></a>
 		</div>
@@ -35,20 +35,16 @@
 
 	<!-- Hauptteil -->
 
-	<main> 
-	<!-- Level Anzeige (verlinkt wird immer das, was schon gespielt wurde) -->
+	<main>
 	<p id="Level">Level 1</p>
-	<div id="Levelpunkte"><img src="level1.2.PNG"></div>
-	
-	
-	<a href="Errate1.3.html"><p id="weiter">weiter --></p></a>
-	
-	
-	
-	<!-- Audio Icon -->
+	<div id="Levelpunkte">
+		<img src="level1.2.PNG">
+	</div>
+
+
+	<a href="Errate1.3.html"><button id="weiter">weiter --></button></a> <!-- Audio Icon -->
 	<div id="Audioicon">
-		<a href="Sound1.2.mp3" type="audio/mp3"><img
-			src="Audioicon.png"></a>
+		<a href="Sound1.2.mp3" type="audio/mp3"><img src="Audioicon.png"></a>
 	</div>
 	<div id="Frage">
 		<p>Was hörst Du?</p>
@@ -57,22 +53,30 @@
 	<!-- Antwortmöglichkeiten -->
 	<div class="Bilder">
 		<img src="Regen im Wald.jpg">
-		<div onclick="Richtig()" class="Antworten"><p>A: Regen im Wald</p></div>
+		<div onclick="Richtig()" class="Antworten">
+			<p>A: Regen im Wald</p>
+		</div>
 	</div>
 
 	<div class="Bilder">
 		<img src="Wasserfall.jpg">
-		<div onclick="Falsch()" class="Antworten"><p>B: Wasserfall </p></div>
+		<div onclick="Falsch()" class="Antworten">
+			<p>B: Wasserfall</p>
+		</div>
 	</div>
 
 	<div class="Bilder">
 		<img src="kochendes Wasser.jpg">
-		<div onclick="Falsch()" class="Antworten"><p>C: kochendes Wasser </p></div>
+		<div onclick="Falsch()" class="Antworten">
+			<p>C: kochendes Wasser</p>
+		</div>
 	</div>
 
-<div class="Bilder">
+	<div class="Bilder">
 		<img src="Bach.jpg">
-		<div onclick="Falsch()" class="Antworten"><p>D: fließender Bach</p></div>
+		<div onclick="Falsch()" class="Antworten">
+			<p>D: fließender Bach</p>
+		</div>
 	</div>
 
 

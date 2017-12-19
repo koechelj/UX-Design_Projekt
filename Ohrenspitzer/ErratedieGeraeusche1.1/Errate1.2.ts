@@ -1,16 +1,15 @@
-namespace zwei {
 
 
-//Alertboxen
-function Falsch(): void {
-    alert("Das ist leider FALSCH :(   Versuche es noch einmal!");
-}
 
-function Richtig(): void {
-    alert("RICHTIG :)   weiter zum naechsten Geraeusch!");
-}
-    
-    
-    
+    //Alertboxen
+    function Falsch(): void {
+        alert("Das ist leider FALSCH :(   Versuche es noch einmal!");
+    }
 
-}
+    function Richtig(): void {
+        alert("RICHTIG :)   weiter zum naechsten Geraeusch!");
+    }
+
+
+
+

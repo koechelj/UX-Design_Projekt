@@ -1,4 +1,4 @@
-namespace eins {
+
 
 
     //Alertboxen
@@ -9,7 +9,7 @@ namespace eins {
     function Richtig(): void {
         alert("RICHTIG :)   weiter zum naechsten Geraeusch!");
     }
-}
+
 
 
 
