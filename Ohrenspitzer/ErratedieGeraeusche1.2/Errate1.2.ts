@@ -1,9 +1,16 @@
+namespace zwei {
+
+
 //Alertboxen
-function Falschmeldung(): void {
+function Falsch(): void {
     alert("Das ist leider FALSCH :(   Versuche es noch einmal!");
 }
 
 function Richtig(): void {
     alert("RICHTIG :)   weiter zum naechsten Geraeusch!");
 }
+    
+    
+    
 
+}

@@ -62,43 +62,25 @@ header img {
 	top:4.5em;
 	color: #5858FA;
 }
-#Kreis1 {
+
+#Levelpunkte {
 	float: right;
 	position: relative;
-	width: 1%;
-	height: 1.5;
+	width: 4%;
+	height: auto;
 	top: 2em;
-	right: 2.9em;
+	right: 2.5em;
 	background-color: ;
 }
 
-#Kreis2 {
-	float: right;
-	position: relative;
-	width: 1%;
-	height: 1.5;
-	top: 2em;
-	right: 2.9em;
-	background-color: ;
-}
-
-#Kreis3 {
-	float: right;
-	position: relative;
-	width: 1%;
-	height: 1.5em;
-	top: 2em;
-	right: 2.9em;
-	background-color: white;
-}
 
 #weiter {
 	font-family: "MV Boli";
 	font-size: 1.2em;
 	position: absolute;
 	float: right;
-	right: 1.2em;
-	top: 27.5em;
+	right: 1em;
+	top: 9em;
 	color: #5858FA;
 	background-color: white;
 }
@@ -121,8 +103,10 @@ header img {
 }
 
 #Audioicon img:hover {
-	background-color: transparent;
+	 background-color: transparent;
 }
+
+
 
 #Frage {
 	width: 19em;

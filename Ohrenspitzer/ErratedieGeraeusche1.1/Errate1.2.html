@@ -1,0 +1,91 @@
+<!-- UX-Design_Projekt, Gruppe 7, Wasserratte  -->
+<!-- Datum: 15.01.18 -->
+<!-- Hiermit versicheren wir, dass wir diesen Code selbst geschrieben haben. Er wurde nicht kopiert und auch nicht diktiert. -->
+
+<!Doctype HTML>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Errate die Geraeusche 1.2</title>
+
+<!-- Link zum js File -->
+<script type="text/javascript" src="Errate1.2.js"></script>
+
+<!-- Link zum CSS File -->
+<link rel="stylesheet" type="text/css" href="Errate1.2.css">
+
+
+</head>
+
+<body>
+
+	<!-- Kopfbereich -->
+	<header>
+		<div>
+			<h2>Errate die Geräusche!</h2>
+
+			<!-- Ratte Logo: zurück zur Palmen Startseite -->
+			<a href=""><img src="Ratte.png"></a>
+			
+			<!-- X Button: zurück zur Levelauswahl -->
+			<a href=""><strong>X</strong></a>
+		</div>
+
+	</header>
+
+	<!-- Hauptteil -->
+
+	<main> 
+	<!-- Level Anzeige (verlinkt wird immer das, was schon gespielt wurde) -->
+	<p id="Level">Level 1</p>
+	<div id="Levelpunkte"><img src="level1.2.PNG"></div>
+	
+	
+	<a href="Errate1.3.html"><p id="weiter">weiter --></p></a>
+	
+	
+	
+	<!-- Audio Icon -->
+	<div id="Audioicon">
+		<a href="Sound1.2.mp3" type="audio/mp3"><img
+			src="Audioicon.png"></a>
+	</div>
+	<div id="Frage">
+		<p>Was hörst Du?</p>
+	</div>
+
+	<!-- Antwortmöglichkeiten -->
+	<div class="Bilder">
+		<img src="Regen im Wald.jpg">
+		<div onclick="Richtig()" class="Antworten"><p>A: Regen im Wald</p></div>
+	</div>
+
+	<div class="Bilder">
+		<img src="Wasserfall.jpg">
+		<div onclick="Falsch()" class="Antworten"><p>B: Wasserfall </p></div>
+	</div>
+
+	<div class="Bilder">
+		<img src="kochendes Wasser.jpg">
+		<div onclick="Falsch()" class="Antworten"><p>C: kochendes Wasser </p></div>
+	</div>
+
+<div class="Bilder">
+		<img src="Bach.jpg">
+		<div onclick="Falsch()" class="Antworten"><p>D: fließender Bach</p></div>
+	</div>
+
+
+
+
+	</main>
+
+
+	<!-- Fußbereich -->
+	<div id="Footer">
+		<a id="footer1">Impressum</a> <a> | </a> <a id="footer2">Kontakt</a> <a>
+			| </a> <a id="footer3">&#220;ber uns</a> <a> | </a> <a id="footer4">Datenschutz</a>
+	</div>
+
+</body>
+</html>
