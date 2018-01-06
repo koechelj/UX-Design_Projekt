@@ -3,13 +3,13 @@ html {
 	height: 100%;
 	line-height: 1.8em;
 	font-size: 1em;
+}
+body{
+	background-color:#00b0f0;
 	background-image:url("hintergrund2.PNG");
 	background-repeat:no-repeat;
 	background-size: 100% 100% !important;
 	height:fit-content;
-}
-
-body {
 	font-family: "Arial";
 	margin: 0em;
 	padding: 0em;
@@ -92,25 +92,19 @@ header img {
 #Audioicon {
 	width: 5em;
 	position: absolute;
-	left: 40em;
-	top: 7em;
+	left: 34.2em;
+	top: 11.5em;
+	z-index: 30;
 }
 
-#Audioicon img {
-	height: auto;
-	background-color: white;
-}
 
-#Audioicon img:hover {
-	 background-color: transparent;
-}
 
 #Frage {
-	width: 19em;
-	height: 3.5em;
+	width: 17em;
+	height: 6.6em;
 	position: absolute;
-	left: 33em;
-	top: 12.5em;
+	left: 34.1em;
+	top: 7.3em;
 	background-color: white;
 }
 
@@ -130,11 +124,17 @@ color: black;
 
 }
 
+.foto{
+	height:11em;
+}
+
+#H{
+	top:9.2em;
+}
+
 main img {
 	width: 100%;
 }
-
-
 
 .Antworten {
 	width: 100%;

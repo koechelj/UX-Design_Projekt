@@ -93,27 +93,19 @@ header img {
 #Audioicon {
 	width: 5em;
 	position: absolute;
-	left: 40em;
-	top: 7em;
-}
-
-#Audioicon img {
-	height: auto;
-	background-color: white;
-}
-
-#Audioicon img:hover {
-	 background-color: transparent;
+	left: 34.2em;
+	top: 11.5em;
+	z-index: 30;
 }
 
 
 
 #Frage {
-	width: 19em;
-	height: 3.5em;
+	width: 17em;
+	height: 6.6em;
 	position: absolute;
-	left: 33em;
-	top: 12.5em;
+	left: 34.1em;
+	top: 7.3em;
 	background-color: white;
 }
 
@@ -131,6 +123,14 @@ color: black;
 	margin-left: 3.5em;
 	top: 11em;
 
+}
+
+.foto{
+	height:12em;
+}
+
+#H{
+	top:9.2em;
 }
 
 main img {
@@ -151,7 +151,6 @@ main img {
 .Antworten:hover {
 	background-color: #5858FA;
 }
-
 
 
 

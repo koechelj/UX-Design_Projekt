@@ -1,6 +1,7 @@
-<!-- UX-Design_Projekt, Gruppe 7, Wasserratte  -->
+<!-- UX-Design_Projekt, Gruppe 7, Wasserratte -->
+<!-- Jaqueline Köchel -->
 <!-- Datum: 15.01.18 -->
-<!-- Hiermit versicheren wir, dass wir diesen Code selbst geschrieben haben. Er wurde nicht kopiert und auch nicht diktiert. -->
+<!-- Hiermit versichere ich, dass ich diesen Code selbst geschrieben habe. Er wurde nicht kopiert und auch nicht diktiert. -->
 
 <!Doctype HTML>
 <html lang="de">
@@ -25,9 +26,9 @@
 			<h2>Errate die Geräusche!</h2>
 
 			<!-- Ratte Logo: zurück zur Palmen Startseite -->
-			<a href=""><img src="Ratte.png"></a>
+			<a href="startseite.html"><img src="Ratte.png"></a>
 
-			<!-- X Button: zurück zur Levelauswahl -->
+			<!-- X Button: Levelauswahl Seite verlinken -->
 			<a href=""><strong>X</strong></a>
 		</div>
 
@@ -42,38 +43,40 @@
 	</div>
 
 
-	<a href="Errate1.3.html"><button id="weiter">weiter --></button></a> <!-- Audio Icon -->
+	<a href="Errate1.3.html"><button id="weiter">weiter --></button></a> 
+	
+	<!-- Audio Icon -->
 	<div id="Audioicon">
-		<a href="Sound1.2.mp3" type="audio/mp3"><img src="Audioicon.png"></a>
+		<audio controls><source src="Sound1.2.mp3" type="audio/mp3"></audio>
 	</div>
 	<div id="Frage">
 		<p>Was hörst Du?</p>
 	</div>
-
+	
 	<!-- Antwortmöglichkeiten -->
 	<div class="Bilder">
-		<img src="Regen im Wald.jpg">
+		<img class="foto" src="Regen im Wald.jpg">
 		<div onclick="Richtig()" class="Antworten">
 			<p>A: Regen im Wald</p>
 		</div>
 	</div>
 
 	<div class="Bilder">
-		<img src="Wasserfall.jpg">
+		<img class="foto" src="Wasserfall.jpg">
 		<div onclick="Falsch()" class="Antworten">
 			<p>B: Wasserfall</p>
 		</div>
 	</div>
 
 	<div class="Bilder">
-		<img src="kochendes Wasser.jpg">
+		<img class="foto" src="kochendes Wasser.jpg">
 		<div onclick="Falsch()" class="Antworten">
 			<p>C: kochendes Wasser</p>
 		</div>
 	</div>
 
-	<div class="Bilder">
-		<img src="Bach.jpg">
+	<div id="H" class="Bilder">
+		<img class="foto" src="Bach.jpg">
 		<div onclick="Falsch()" class="Antworten">
 			<p>D: fließender Bach</p>
 		</div>

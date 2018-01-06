@@ -1,13 +1,11 @@
 
-
-
     //Alertboxen
     function Falsch(): void {
-        alert("Das ist leider FALSCH :(   Versuche es noch einmal!");
+        alert("FALSCH :(   Versuche es noch einmal!");
     }
 
     function Richtig(): void {
-        alert("RICHTIG :)   weiter zum naechsten Geraeusch!");
+        alert("RICHTIG :)   Weiter zum naechsten Geraeusch!");
     }
 
 

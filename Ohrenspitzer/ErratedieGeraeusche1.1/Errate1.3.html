@@ -1,6 +1,7 @@
-<!-- UX-Design_Projekt, Gruppe 7, Wasserratte  -->
+<!-- UX-Design_Projekt, Gruppe 7, Wasserratte -->
+<!-- Jaqueline Köchel -->
 <!-- Datum: 15.01.18 -->
-<!-- Hiermit versicheren wir, dass wir diesen Code selbst geschrieben haben. Er wurde nicht kopiert und auch nicht diktiert. -->
+<!-- Hiermit versichere ich, dass ich diesen Code selbst geschrieben habe. Er wurde nicht kopiert und auch nicht diktiert. -->
 
 <!Doctype HTML>
 <html lang="de">
@@ -25,9 +26,9 @@
 			<h2>Errate die Geräusche!</h2>
 
 			<!-- Ratte Logo: zurück zur Palmen Startseite -->
-			<a href=""><img src="Ratte.png"></a>
+			<a href="startseite.html"><img src="Ratte.png"></a>
 
-			<!-- X Button: zurück zur Levelauswahl -->
+			<!-- X Button: Levelauswahl Seite verlinken -->
 			<a href=""><strong>X</strong></a>
 		</div>
 
@@ -42,39 +43,41 @@
 	</div>
 
 
-	<!-- hier kann man noch die Levelauswahlseite verlinken: --> <a href=""><button
-			id="weiter">zum nächsten Level --></button></a> <!-- Audio Icon -->
+	<a href="levelgeschafft.html"><button id="weiter">weiter --></button></a> 
+			
+			<!-- Audio Icon -->
 	<div id="Audioicon">
-		<a href="Sound1.3.mp3" type="audio/mp3"><img src="Audioicon.png"></a>
+		<audio controls><source src="Sound1.3.mp3" type="audio/mp3"></audio>
 	</div>
 	<div id="Frage">
 		<p>Was hörst Du?</p>
 	</div>
+			
 
 	<!-- Antwortmöglichkeiten -->
 	<div class="Bilder">
-		<img src="Kajak fahren.jpg">
+		<img class="foto" src="Kajak fahren.jpg">
 		<div onclick="Falsch()" class="Antworten">
 			<p>A: Kajak fahren (Paddel)</p>
 		</div>
 	</div>
 
 	<div class="Bilder">
-		<img src="Handwäsche.jpg">
+		<img class="foto" src="Handwäsche.jpg">
 		<div onclick="Falsch()" class="Antworten">
 			<p>B: Handwäsche</p>
 		</div>
 	</div>
 
 	<div class="Bilder">
-		<img src="Seeufer.JPG">
+		<img class="foto" src="Seeufer.JPG">
 		<div onclick="Richtig()" class="Antworten">
 			<p>C: Wellen am Seeufer</p>
 		</div>
 	</div>
 
-	<div class="Bilder">
-		<img src="Schwimmen.jpg">
+	<div id="H" class="Bilder">
+		<img class="foto" src="Schwimmen.jpg">
 		<div onclick="Falsch()" class="Antworten">
 			<p>D: Schwimmen</p>
 		</div>
